@@ -1,0 +1,30 @@
+.navbar {
+    background-color: rgb(24, 54, 28) !important;
+}
+
+.navbar a {
+    cursor: pointer !important;
+    color: #FFE000 !important;
+    border-radius: 8px;
+    padding: 5px 8px;
+}
+
+.navbar a:hover {
+    background-color: #18A999 !important;
+    color: #F6F8FF !important;
+}
+
+#userNameFilter{
+    width: 100%;
+    max-width: 80%;
+    margin: 5px 10px;
+}
+
+#reciept-image {
+    max-width: 40% !important;
+    max-height: auto;
+}
+
+#modal-image {
+    width: 100%;
+}
