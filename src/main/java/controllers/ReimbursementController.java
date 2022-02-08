@@ -10,6 +10,7 @@ import models.JsonResponse;
 import models.Reimbursement;
 import org.apache.log4j.Logger;
 import service.ReimbursementService;
+import util.AWS3FileUpload;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -51,8 +52,10 @@ public class ReimbursementController {
         byte[] reciept = null;
         File file = null;
         UploadedFile uploadedFile = null;
+        String imageUrl = "";
         try{
             uploadedFile = context.uploadedFiles().get(0);
+            ticket.setImageUrl(new AWS3FileUpload().uploadFile(uploadedFile));
         }catch (Exception e){
 
         }

@@ -83,6 +83,18 @@
             <version>1.6.2</version>
         </dependency>
 
+        <!-- AWS S3 file upload -->
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk</artifactId>
+            <version>1.11.388</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.3.14</version>
+        </dependency>
+
     </dependencies>
 
 </project>

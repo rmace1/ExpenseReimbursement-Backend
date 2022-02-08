@@ -60,7 +60,7 @@ public class ReimbursementDao implements ReimbursementDaoInterface{
             while(rs.next()){
                 reimbursement = new Reimbursement(rs.getInt(1), rs.getDouble(2),
                         rs.getTimestamp(3), rs.getTimestamp(4),
-                        rs.getString(5), rs.getBytes(6),
+                        rs.getString(5), rs.getString(6),
                         rs.getInt(7), rs.getInt(8),
                         rs.getInt(9), rs.getInt(10));
                 reimbursement.setStatus(rs.getString(11));
@@ -103,7 +103,7 @@ public class ReimbursementDao implements ReimbursementDaoInterface{
             while(rs.next()){
                 Reimbursement reimbursement = new Reimbursement(rs.getInt(1), rs.getDouble(2),
                         rs.getTimestamp(3), rs.getTimestamp(4),
-                        rs.getString(5), rs.getBytes(6),
+                        rs.getString(5), rs.getString(6),
                         rs.getInt(7), rs.getInt(8),
                         rs.getInt(9), rs.getInt(10));
                 reimbursement.setStatus(rs.getString(11));
@@ -150,7 +150,7 @@ public class ReimbursementDao implements ReimbursementDaoInterface{
             while(rs.next()){
                 Reimbursement reimbursement = new Reimbursement(rs.getInt(1), rs.getDouble(2),
                         rs.getTimestamp(3), rs.getTimestamp(4),
-                        rs.getString(5), rs.getBytes(6),
+                        rs.getString(5), rs.getString(6),
                         rs.getInt(7), rs.getInt(8),
                         rs.getInt(9), rs.getInt(10));
                 reimbursement.setStatus(rs.getString(11));
@@ -195,7 +195,7 @@ public class ReimbursementDao implements ReimbursementDaoInterface{
             while(rs.next()){
                 Reimbursement reimbursement = new Reimbursement(rs.getInt(1), rs.getDouble(2),
                         rs.getTimestamp(3), rs.getTimestamp(4),
-                        rs.getString(5), rs.getBytes(6),
+                        rs.getString(5), rs.getString(6),
                         rs.getInt(7), rs.getInt(8),
                         rs.getInt(9), rs.getInt(10));
                 reimbursement.setStatus(rs.getString(11));
@@ -241,7 +241,7 @@ public class ReimbursementDao implements ReimbursementDaoInterface{
             while(rs.next()){
                 Reimbursement reimbursement = new Reimbursement(rs.getInt(1), rs.getDouble(2),
                         rs.getTimestamp(3), rs.getTimestamp(4),
-                        rs.getString(5), rs.getBytes(6),
+                        rs.getString(5), rs.getString(6),
                         rs.getInt(7), rs.getInt(8),
                         rs.getInt(9), rs.getInt(10));
                 reimbursement.setStatus(rs.getString(11));
@@ -278,7 +278,7 @@ public class ReimbursementDao implements ReimbursementDaoInterface{
             ps.setDouble(1, newTicket.getAmount());
             ps.setTimestamp(2, null);// newTicket.getResolved());
             ps.setString(3, newTicket.getDescription());
-            ps.setBytes(4, newTicket.getReciept());
+            ps.setString(4, newTicket.getImageUrl());
             ps.setInt(5, newTicket.getAuthor());
             if(newTicket.getResolver() == 0){
                 ps.setNull(6, 0);
@@ -366,7 +366,7 @@ public class ReimbursementDao implements ReimbursementDaoInterface{
             ps.setDouble(1, updatedTicket.getAmount());
             ps.setTimestamp(2, updatedTicket.getSubmitted());
             ps.setString(3, updatedTicket.getDescription());
-            ps.setBytes(4, updatedTicket.getReciept());
+            ps.setString(4, updatedTicket.getImageUrl());
             if(updatedTicket.getResolver() == 0){
                 ps.setNull(5,0);
             }else {

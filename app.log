@@ -7046,3 +7046,225 @@ INSERT INTO ers_users VALUES (DEFAULT, ?, ?, ?, ?, ?, ?); [23505-200]
 2021-12-20 12:59:08 INFO  UserDao:107 - User retrieved.
 2021-12-20 12:59:09 INFO  ReimbursementController:172 - Getting all tickets.
 2021-12-20 12:59:09 INFO  ReimbursementDao:126 - Tickets retrieved.
+2022-02-08 13:37:22 INFO  TypeDao:52 - Type was created: true
+2022-02-08 13:37:22 INFO  StatusDao:50 - Status was created: true
+2022-02-08 13:37:22 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 13:37:22 INFO  UserDao:58 - User created: true
+2022-02-08 13:37:22 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-08 14:08:53 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:08:53 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:08:56 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:08:57 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:08:57 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:08:58 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:08:58 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:08:58 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:08:58 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:08:59 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:08:59 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:08:59 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:09:00 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:09:00 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:09:00 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:09:00 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:09:00 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:09:01 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:09:01 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:09:01 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:09:44 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:11:42 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:11:44 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:11:45 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:11:45 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:11:45 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:11:58 ERROR ReimbursementController:46 - java.lang.NumberFormatException: null
+2022-02-08 14:12:36 INFO  UserDao:83 - User retrieved.
+2022-02-08 14:12:37 INFO  TypeDao:95 - Type retrieved.
+2022-02-08 14:12:37 INFO  StatusDao:91 - Status retrieved.
+2022-02-08 14:12:38 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:12:39 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:12:39 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:12:40 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:13:03 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-08 14:13:27 ERROR ReimbursementController:46 - java.lang.NumberFormatException: null
+2022-02-08 14:17:00 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:17:00 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:17:01 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:17:01 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:17:02 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:17:09 ERROR ReimbursementController:46 - java.lang.NumberFormatException: null
+2022-02-08 14:18:17 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:18:18 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:18:18 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:18:18 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:18:19 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:18:29 ERROR ReimbursementController:46 - java.lang.NumberFormatException: null
+2022-02-08 14:20:06 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:20:06 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:20:07 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:20:07 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:20:08 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:20:16 ERROR ReimbursementController:46 - java.lang.NumberFormatException: null
+2022-02-08 14:21:50 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:21:50 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:21:51 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:21:59 ERROR ReimbursementController:46 - java.lang.NumberFormatException: null
+2022-02-08 14:22:21 INFO  UserDao:83 - User retrieved.
+2022-02-08 14:22:22 INFO  TypeDao:95 - Type retrieved.
+2022-02-08 14:22:22 INFO  StatusDao:91 - Status retrieved.
+2022-02-08 14:22:23 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:22:23 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:22:23 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:22:24 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:22:27 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-08 14:22:32 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-08 14:22:47 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-08 14:30:18 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:30:18 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:30:19 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:30:34 ERROR ReimbursementController:46 - java.lang.NumberFormatException: null
+2022-02-08 14:30:36 INFO  UserDao:83 - User retrieved.
+2022-02-08 14:30:36 INFO  TypeDao:95 - Type retrieved.
+2022-02-08 14:30:37 INFO  StatusDao:91 - Status retrieved.
+2022-02-08 14:30:37 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:30:38 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:30:38 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:30:39 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:30:40 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-08 14:31:07 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-08 14:31:22 INFO  UserDao:107 - User retrieved.
+2022-02-08 14:31:22 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:31:23 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:31:23 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 14:31:24 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:31:25 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-08 14:32:21 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:21 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:21 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:22 INFO  UserDao:130 - Users retrieved.
+2022-02-08 14:32:22 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:22 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:22 INFO  UserDao:172 - User updated: true
+2022-02-08 14:32:22 INFO  UserDao:83 - User retrieved.
+2022-02-08 14:32:22 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:22 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:22 INFO  UserDao:83 - User retrieved.
+2022-02-08 14:32:22 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:22 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:22 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:22 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:22 INFO  UserDao:148 - User deleted: true
+2022-02-08 14:32:23 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:23 INFO  StatusDao:145 - Status updated: true
+2022-02-08 14:32:23 INFO  StatusDao:71 - Status retrieved.
+2022-02-08 14:32:23 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:23 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:23 INFO  StatusDao:112 - Statuses retrieved.
+2022-02-08 14:32:23 INFO  StatusDao:128 - Status deleted: true
+2022-02-08 14:32:23 INFO  StatusDao:112 - Statuses retrieved.
+2022-02-08 14:32:23 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:23 INFO  StatusDao:71 - Status retrieved.
+2022-02-08 14:32:23 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:23 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:23 INFO  StatusDao:112 - Statuses retrieved.
+2022-02-08 14:32:24 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:25 ERROR ReimbursementService:149 - User ID: 1 not found or is not a MANAGER.
+2022-02-08 14:32:25 ERROR ReimbursementService:149 - User ID: 1 not found or is not a MANAGER.
+2022-02-08 14:32:25 ERROR ReimbursementService:161 - User ID: 1 not found or is not a MANAGER.
+2022-02-08 14:32:25 ERROR ReimbursementService:161 - User ID: 1 not found or is not a MANAGER.
+2022-02-08 14:32:25 INFO  ReimbursementService:158 - Ticket: 1 denied by userID: 1
+2022-02-08 14:32:25 INFO  ReimbursementService:146 - Ticket: 1 approved by userID: 1
+2022-02-08 14:32:25 INFO  RoleDao:53 - New role (peasant) created successfully.
+2022-02-08 14:32:25 INFO  RoleDao:129 - User role updated: true
+2022-02-08 14:32:25 INFO  RoleDao:75 - Role retrieved.
+2022-02-08 14:32:25 INFO  RoleDao:53 - New role (MANAGER) created successfully.
+2022-02-08 14:32:25 INFO  RoleDao:75 - Role retrieved.
+2022-02-08 14:32:25 INFO  RoleDao:53 - New role (MANAGER) created successfully.
+2022-02-08 14:32:25 INFO  RoleDao:53 - New role (MANAGER) created successfully.
+2022-02-08 14:32:25 INFO  RoleDao:111 - Role deleted: true
+2022-02-08 14:32:25 INFO  RoleDao:53 - New role (MANAGER) created successfully.
+2022-02-08 14:32:25 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:26 INFO  RoleDao:95 - Statuses retrieved.
+2022-02-08 14:32:26 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:26 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:26 INFO  TypeDao:117 - Types retrieved.
+2022-02-08 14:32:26 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:26 INFO  TypeDao:152 - Type updated: true
+2022-02-08 14:32:26 INFO  TypeDao:74 - Type retrieved.
+2022-02-08 14:32:26 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:26 INFO  TypeDao:74 - Type retrieved.
+2022-02-08 14:32:26 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:26 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:27 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:27 INFO  TypeDao:134 - Type deleted: true
+2022-02-08 14:32:27 INFO  TypeDao:117 - Types retrieved.
+2022-02-08 14:32:27 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:27 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:27 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:27 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:27 INFO  ReimbursementDao:126 - Tickets retrieved.
+2022-02-08 14:32:27 INFO  ReimbursementDao:126 - Tickets retrieved.
+2022-02-08 14:32:28 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:28 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:28 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:28 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:28 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:28 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:28 INFO  ReimbursementDao:263 - Reimbursement tickets of status (2) retrieved from database successfully.
+2022-02-08 14:32:28 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:28 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:28 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:28 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:28 INFO  ReimbursementDao:380 - Ticket updated: true
+2022-02-08 14:32:28 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-08 14:32:28 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:28 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:28 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:28 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:28 INFO  ReimbursementDao:126 - Tickets retrieved.
+2022-02-08 14:32:28 INFO  ReimbursementDao:308 - Ticket was deleted: true
+2022-02-08 14:32:28 INFO  ReimbursementDao:126 - Tickets retrieved.
+2022-02-08 14:32:29 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:29 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:29 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:29 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:29 INFO  ReimbursementDao:126 - Tickets retrieved.
+2022-02-08 14:32:29 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:29 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:29 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:29 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:29 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:29 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:29 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:29 INFO  ReimbursementDao:349 - Ticket was denied: true
+2022-02-08 14:32:29 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-08 14:32:29 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:29 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:29 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:29 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:29 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:29 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:29 INFO  ReimbursementDao:217 - Reimbursement tickets of type (2) retrieved from database successfully.
+2022-02-08 14:32:30 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:30 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:30 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:30 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:30 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:30 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:30 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:30 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 14:32:30 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:30 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:30 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:30 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:30 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:30 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:30 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:30 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-08 14:32:30 INFO  ReimbursementDao:329 - Ticket was approved: true
+2022-02-08 14:32:30 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-08 14:32:31 INFO  TypeDao:52 - Type was created: true
+2022-02-08 14:32:31 INFO  StatusDao:50 - Status was created: true
+2022-02-08 14:32:31 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-08 14:32:31 INFO  UserDao:58 - User created: true
+2022-02-08 14:32:31 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.

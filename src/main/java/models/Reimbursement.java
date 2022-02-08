@@ -27,6 +27,8 @@ public class Reimbursement {
     private String status;
     private int typeId; //required
     private String type;
+    private String imageUrl;
+
 
     public String getSubmittedDate() {
         return submittedDate;
@@ -56,6 +58,19 @@ public class Reimbursement {
         this.statusId = statusId;
         this.typeId = typeId;
     }
+    public Reimbursement(int id, double amount, Timestamp submitted, Timestamp resolved, String description,
+                         String reciept, int author, int resolver, int statusId, int typeId) {
+        this.id = id;
+        this.amount = amount;
+        this.submitted = submitted;
+        this.resolved = resolved;
+        this.description = description;
+        this.imageUrl = reciept;
+        this.author = author;
+        this.resolver = resolver;
+        this.statusId = statusId;
+        this.typeId = typeId;
+    }
 
     public Reimbursement(int id, double amount, Timestamp submitted, Timestamp resolved, String description,
                          byte[] reciept, int author, int resolver, int statusId, int typeId) {
@@ -69,6 +84,14 @@ public class Reimbursement {
         this.resolver = resolver;
         this.statusId = statusId;
         this.typeId = typeId;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 
     public int getId() {
