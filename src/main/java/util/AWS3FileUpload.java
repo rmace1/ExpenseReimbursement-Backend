@@ -25,8 +25,8 @@ public class AWS3FileUpload {
 
         //Environment Variable
         String bucketName = "jwa-p2";
-        final String awsID = "AKIARPE5PYIL7GWTR5FM";
-        final String secretKey = "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";
+        final String awsID = System.getenv ("AWS_PASS");
+        final String secretKey = System.getenv ("AWS_SECRET_PASS");
 
         BasicAWSCredentials awsCredentials = new BasicAWSCredentials (awsID, secretKey);
 
