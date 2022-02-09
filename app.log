@@ -7268,3 +7268,37 @@ INSERT INTO ers_users VALUES (DEFAULT, ?, ?, ?, ?, ?, ?); [23505-200]
 2022-02-08 14:32:31 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
 2022-02-08 14:32:31 INFO  UserDao:58 - User created: true
 2022-02-08 14:32:31 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-08 18:44:48 INFO  UserDao:107 - User retrieved.
+2022-02-08 18:44:48 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 18:44:48 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 18:44:48 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 18:44:49 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 18:44:57 ERROR ReimbursementController:46 - java.lang.NumberFormatException: null
+2022-02-08 18:44:59 INFO  UserDao:83 - User retrieved.
+2022-02-08 18:44:59 INFO  TypeDao:95 - Type retrieved.
+2022-02-08 18:45:00 INFO  StatusDao:91 - Status retrieved.
+2022-02-08 18:45:01 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 18:45:01 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 18:45:01 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 18:45:02 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 18:45:45 ERROR ReimbursementController:46 - java.lang.NumberFormatException: null
+2022-02-08 18:45:46 INFO  UserDao:83 - User retrieved.
+2022-02-08 18:45:46 INFO  TypeDao:95 - Type retrieved.
+2022-02-08 18:45:47 INFO  StatusDao:91 - Status retrieved.
+2022-02-08 18:45:48 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 18:45:49 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 18:45:49 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 18:45:50 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 18:58:04 INFO  UserDao:107 - User retrieved.
+2022-02-08 18:58:04 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 18:58:05 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 18:58:05 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 18:58:06 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 18:58:24 ERROR ReimbursementController:46 - java.lang.NumberFormatException: null
+2022-02-08 18:58:34 INFO  UserDao:83 - User retrieved.
+2022-02-08 18:58:34 INFO  TypeDao:95 - Type retrieved.
+2022-02-08 18:58:35 INFO  StatusDao:91 - Status retrieved.
+2022-02-08 18:58:35 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 18:58:36 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-08 18:58:36 INFO  ReimbursementController:248 - Getting all tickets by user id.
+2022-02-08 18:58:36 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
