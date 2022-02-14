@@ -7302,3 +7302,297 @@ INSERT INTO ers_users VALUES (DEFAULT, ?, ?, ?, ?, ?, ?); [23505-200]
 2022-02-08 18:58:36 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
 2022-02-08 18:58:36 INFO  ReimbursementController:248 - Getting all tickets by user id.
 2022-02-08 18:58:36 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-09 01:20:26 ERROR ReimbursementDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-09 01:20:26 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-09 01:20:26 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-09 01:20:26 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-09 01:20:26 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-09 01:20:26 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-09 01:20:26 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-09 01:20:26 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-09 01:20:26 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-09 11:50:19 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:19 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:19 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:19 INFO  UserDao:130 - Users retrieved.
+2022-02-09 11:50:19 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:19 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:19 INFO  UserDao:172 - User updated: true
+2022-02-09 11:50:19 INFO  UserDao:83 - User retrieved.
+2022-02-09 11:50:19 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:19 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:19 INFO  UserDao:83 - User retrieved.
+2022-02-09 11:50:20 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:20 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:20 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:20 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:20 INFO  UserDao:148 - User deleted: true
+2022-02-09 11:50:20 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:20 INFO  StatusDao:145 - Status updated: true
+2022-02-09 11:50:20 INFO  StatusDao:71 - Status retrieved.
+2022-02-09 11:50:20 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:20 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:20 INFO  StatusDao:112 - Statuses retrieved.
+2022-02-09 11:50:20 INFO  StatusDao:128 - Status deleted: true
+2022-02-09 11:50:20 INFO  StatusDao:112 - Statuses retrieved.
+2022-02-09 11:50:20 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:20 INFO  StatusDao:71 - Status retrieved.
+2022-02-09 11:50:21 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:21 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:21 INFO  StatusDao:112 - Statuses retrieved.
+2022-02-09 11:50:21 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:22 ERROR ReimbursementService:149 - User ID: 1 not found or is not a MANAGER.
+2022-02-09 11:50:22 ERROR ReimbursementService:149 - User ID: 1 not found or is not a MANAGER.
+2022-02-09 11:50:22 ERROR ReimbursementService:161 - User ID: 1 not found or is not a MANAGER.
+2022-02-09 11:50:22 ERROR ReimbursementService:161 - User ID: 1 not found or is not a MANAGER.
+2022-02-09 11:50:22 INFO  ReimbursementService:158 - Ticket: 1 denied by userID: 1
+2022-02-09 11:50:22 INFO  ReimbursementService:146 - Ticket: 1 approved by userID: 1
+2022-02-09 11:50:23 INFO  RoleDao:53 - New role (peasant) created successfully.
+2022-02-09 11:50:23 INFO  RoleDao:129 - User role updated: true
+2022-02-09 11:50:23 INFO  RoleDao:75 - Role retrieved.
+2022-02-09 11:50:23 INFO  RoleDao:53 - New role (MANAGER) created successfully.
+2022-02-09 11:50:23 INFO  RoleDao:75 - Role retrieved.
+2022-02-09 11:50:23 INFO  RoleDao:53 - New role (MANAGER) created successfully.
+2022-02-09 11:50:23 INFO  RoleDao:53 - New role (MANAGER) created successfully.
+2022-02-09 11:50:23 INFO  RoleDao:111 - Role deleted: true
+2022-02-09 11:50:23 INFO  RoleDao:53 - New role (MANAGER) created successfully.
+2022-02-09 11:50:23 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:23 INFO  RoleDao:95 - Statuses retrieved.
+2022-02-09 11:50:24 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:24 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:24 INFO  TypeDao:117 - Types retrieved.
+2022-02-09 11:50:24 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:24 INFO  TypeDao:152 - Type updated: true
+2022-02-09 11:50:24 INFO  TypeDao:74 - Type retrieved.
+2022-02-09 11:50:24 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:24 INFO  TypeDao:74 - Type retrieved.
+2022-02-09 11:50:24 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:24 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:24 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:24 INFO  TypeDao:134 - Type deleted: true
+2022-02-09 11:50:24 INFO  TypeDao:117 - Types retrieved.
+2022-02-09 11:50:25 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:25 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:25 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:25 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:25 INFO  ReimbursementDao:126 - Tickets retrieved.
+2022-02-09 11:50:26 INFO  ReimbursementDao:126 - Tickets retrieved.
+2022-02-09 11:50:26 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:26 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:26 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:26 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:26 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:26 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:26 INFO  ReimbursementDao:263 - Reimbursement tickets of status (2) retrieved from database successfully.
+2022-02-09 11:50:26 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:26 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:26 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:26 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:26 INFO  ReimbursementDao:380 - Ticket updated: true
+2022-02-09 11:50:26 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-09 11:50:26 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:26 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:26 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:26 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:26 INFO  ReimbursementDao:126 - Tickets retrieved.
+2022-02-09 11:50:27 INFO  ReimbursementDao:308 - Ticket was deleted: true
+2022-02-09 11:50:27 INFO  ReimbursementDao:126 - Tickets retrieved.
+2022-02-09 11:50:27 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:27 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:27 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:27 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:27 INFO  ReimbursementDao:126 - Tickets retrieved.
+2022-02-09 11:50:27 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:27 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:27 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:27 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:27 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:27 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:27 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:27 INFO  ReimbursementDao:349 - Ticket was denied: true
+2022-02-09 11:50:27 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-09 11:50:27 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:27 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:27 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:27 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:27 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:27 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:28 INFO  ReimbursementDao:217 - Reimbursement tickets of type (2) retrieved from database successfully.
+2022-02-09 11:50:28 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:28 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:28 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:28 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:28 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:28 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:28 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:28 INFO  ReimbursementDao:171 - Reimbursement tickets retrieved from database successfully.
+2022-02-09 11:50:28 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:28 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:28 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:28 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:28 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:28 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:28 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:28 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-09 11:50:28 INFO  ReimbursementDao:329 - Ticket was approved: true
+2022-02-09 11:50:28 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-09 11:50:29 INFO  TypeDao:52 - Type was created: true
+2022-02-09 11:50:29 INFO  StatusDao:50 - Status was created: true
+2022-02-09 11:50:29 INFO  RoleDao:53 - New role (EMPLOYEE) created successfully.
+2022-02-09 11:50:29 INFO  UserDao:58 - User created: true
+2022-02-09 11:50:29 INFO  ReimbursementDao:80 - Reimbursement ticket retrieved from database successfully.
+2022-02-11 13:33:55 ERROR ReimbursementDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:33:55 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:33:55 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:33:55 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:33:55 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:33:55 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:33:55 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:33:55 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:33:55 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:51:20 ERROR ReimbursementDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:51:20 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:51:20 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:51:20 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:51:20 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:51:20 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:51:20 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:51:20 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:51:20 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:52:35 ERROR ReimbursementDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:52:35 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:52:35 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:52:35 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:52:35 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:52:35 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:52:35 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:52:35 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 13:52:35 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:16:25 ERROR ReimbursementDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:16:25 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:16:25 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:16:25 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:16:25 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:16:25 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:16:25 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:16:25 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:16:25 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:17:37 ERROR ReimbursementDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:17:37 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:17:37 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:17:37 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:17:37 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:17:37 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:17:37 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:17:37 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:17:37 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:22:27 ERROR ReimbursementDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:22:27 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:22:27 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:22:27 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:22:27 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:22:27 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:22:27 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:22:27 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:22:27 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:44:45 ERROR ReimbursementDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:44:45 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:44:45 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:44:45 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:44:45 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:44:45 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:44:45 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:44:45 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:44:45 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:45:33 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:45:33 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:45:33 ERROR UserDao:110 - java.sql.SQLException: The url cannot be null
+2022-02-11 14:45:39 ERROR UserDao:110 - java.sql.SQLException: The url cannot be null
+2022-02-11 14:46:18 ERROR ReimbursementDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:46:18 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:46:18 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:46:18 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:46:18 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:46:18 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:46:18 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:46:18 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:46:18 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:46:20 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:46:20 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:46:20 ERROR UserDao:110 - java.sql.SQLException: The url cannot be null
+2022-02-11 14:47:10 ERROR UserDao:110 - java.sql.SQLException: The url cannot be null
+2022-02-11 14:47:34 ERROR ReimbursementDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:47:34 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:47:34 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:47:34 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:47:34 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:47:34 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:47:34 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:47:34 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:47:34 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:47:50 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:47:50 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:56:13 ERROR UserDao:110 - java.sql.SQLException: The url cannot be null
+2022-02-11 14:56:35 ERROR UserDao:110 - java.sql.SQLException: The url cannot be null
+2022-02-11 14:59:09 ERROR ReimbursementDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:59:09 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:59:09 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:59:09 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:59:09 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:59:09 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:59:09 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:59:09 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:59:09 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:59:27 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:59:27 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 14:59:31 ERROR UserDao:110 - java.sql.SQLException: The url cannot be null
+2022-02-11 15:03:18 ERROR ReimbursementDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:03:18 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:03:18 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:03:18 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:03:18 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:03:18 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:03:18 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:03:18 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:03:18 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:03:20 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:03:20 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:03:31 ERROR UserDao:110 - java.sql.SQLException: The url cannot be null
+2022-02-11 15:07:47 ERROR ReimbursementDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:07:47 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:07:47 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:07:47 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:07:47 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:07:47 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:07:47 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:07:47 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:07:47 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:07:49 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:07:49 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:08:45 ERROR ReimbursementDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:08:45 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:08:45 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:08:45 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:08:45 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:08:45 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:08:45 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:08:45 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:08:45 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:08:46 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:08:46 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:09:27 ERROR ReimbursementDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:09:27 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:09:27 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:09:27 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:09:27 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:09:27 ERROR StatusDao:32 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:09:27 ERROR TypeDao:34 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:09:27 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:09:27 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:09:30 ERROR UserDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:09:30 ERROR RoleDao:35 - java.io.FileNotFoundException: config.txt (The system cannot find the file specified)
+2022-02-11 15:09:48 ERROR UserDao:110 - java.sql.SQLException: The url cannot be null
+2022-02-11 15:12:20 ERROR UserDao:110 - java.sql.SQLException: The url cannot be null
+2022-02-11 15:14:51 ERROR UserDao:110 - java.sql.SQLException: The url cannot be null
+2022-02-11 15:14:55 ERROR UserDao:110 - java.sql.SQLException: The url cannot be null
+2022-02-11 15:16:04 ERROR UserDao:110 - java.sql.SQLException: The url cannot be null

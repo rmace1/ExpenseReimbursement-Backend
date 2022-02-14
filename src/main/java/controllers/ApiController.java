@@ -6,19 +6,29 @@ import io.javalin.http.Context;
 import models.JsonResponse;
 import models.User;
 import models.UserDTO;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import service.UserService;
 
+@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
 public class ApiController {
     static UserService userService = new UserService(new UserDao(), new RoleDao());
+
     public static void login(Context context){
         User user = context.bodyAsClass(User.class);
+
         User employee = null;
         Boolean loggedIn = false;
+
+        user.setUserName(context.formParam("userName"));
+        user.setPassword(context.formParam("password"));
 
         if(user != null) {
             employee = userService.getUserByName(user);
             loggedIn = (employee != null);
         }
+
+
+
 
         /*
         * if user.password == employee.password continue, else return jsonResponse with false
